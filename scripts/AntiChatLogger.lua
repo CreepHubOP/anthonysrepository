@@ -434,6 +434,3 @@ if CoreHook then
     setmetatable(Metatable, {__namecall = CoreHook}) 
 end
 setreadonly(Metatable, true)
-
-Notify("🔹Anthony's ACL🔹", "Anti Chat and Screenshot Logger Loaded!", 15)
-print(string.format("AnthonyIsntHere's Anti Chat-Logger has loaded in %s seconds.", string.format("%.2f", tostring(tick() - ACL_LoadTime))))
